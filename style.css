@@ -191,3 +191,13 @@ a {
 .css-container.sub-container {
     border: 2px solid #214ce5;
 }
+
+.git-container.sub-container {
+    border: 2px solid #df4b33;
+    gap: 8px;
+}
+
+.vscode-container.sub-container {
+    border: 2px solid #1eaef3;
+    gap: 10px;
+}
