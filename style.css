@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    /* The below code fills the entire html file */
+    min-height: 100vh;
+}
+
+html {
+    background-color: #1f2937;
+}
+
+.header {
+    background-color: rgb(37, 37, 112);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+    border-radius: 20px;
+    border: 2px solid  rgb(168, 168, 189);
+}
+
+.header .left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .left .logo {
+    color: aliceblue;
+    font-size: 1.5em;
+}
+
+.right .links {
+    /* border: 2px solid salmon; */
+    color: aliceblue;
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.right .links li a:hover {
+    color: bisque;
+    border-bottom: 2px solid bisque;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.main {
+    /* border: 2px solid fuchsia; */
+    display: flex;
+    flex: 1;
+    padding: 50px 150px;
+    justify-content: space-around;
+}
+
+.main .left {
+    border: 2px solid whitesmoke;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: rgb(206, 219, 230);
+    margin: 50px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    box-shadow: 60px -16px rgb(121, 142, 160);
+    /* height: fit-content; */
+    justify-content: center;
+    align-self: center;
+}
+
+.main .left .heading {
+    font-size: 3em;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    width: 400px;
+}
+
+.name {
+    color: rgb(44, 94, 168);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.main .left .paragraph {
+    width: 400px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-style: italic;
+}
+
+.main .left .button-container {
+    display: flex;
+    gap: 10px;
+}
+
+.main .left .button-container .button-one,
+.main .left .button-container .button-two {
+    background-color: #3b82f6;
+    border: 2px solid black;
+    font-weight: bolder;
+    border-radius: 20px;
+    padding: 10px;
+    color: whitesmoke;
+}
+
+.main .left .button-container a div:hover {
+    color: rgb(0, 247, 255);
+    /* color: bisque; */
+}
+
+.main .right {
+    /* border: 0.6rem solid #3253cc; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+}
+
+.main .right img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.technology-container {
+    background-color: #0d0f12;
+    padding: 2rem;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.technology-container h1 {
+    color: #e3e6e8;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.cards-container img {
+    width: 100px;
+    height: 100px;
+}
+
+.cards-container .sub-container {
+    background-color: rgb(206, 219, 230);
+    display: flex;
+    gap: 5px;
+    width: 250px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.javascript-container.sub-container,
+.python-container.sub-container {
+    display: flex;
+    gap: 16px;
+}
+
+.javascript-container.sub-container {
+    border: 2px solid #d4b830;
+}
+
+.python-container.sub-container {
+    border-top: 2px solid #34678e;
+    border-left: 2px solid #34678e;
+    border-bottom: 2px solid #d4b830;
+    border-right: 2px solid #d4b830;
+}
+
+.html-container.sub-container {
+    border: 2px solid #e44d25;
+}
+
+.css-container.sub-container {
+    border: 2px solid #214ce5;
+}
